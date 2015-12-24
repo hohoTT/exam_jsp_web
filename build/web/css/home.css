@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font: 13px/1.6 tahoma,arial,sans-serif;
+}
+p{
+    font: 16px/1.6 tahoma,arial,sans-serif;
+     color:#c91e26;
+}
+a{
+    color:#666;
+    text-decoration:none;
+}
+a:visited{
+    color:#666;
+}
+
+a:hover{
+    color:#c91e26;
+}
+.header{
+    float:left;
+    width:100%;
+    height:176px;
+    border-bottom:3px solid #c91e26;
+}
+.logo{
+    float:left;
+    margin-top:30px;
+    margin-left:150px;
+}
+.logo_title{
+    float:left;
+    width:100%;
+    color:#666;
+    border-bottom:1px solid rgba(204, 188, 188, 0.78);
+}
+#welcome_p{
+    float:left;
+    position:relative;
+    left:173px;
+    top:10px;
+    font-family:KaiTi;
+}
+.header_top{
+    margin-right:100px;
+    list-style-type:none;
+}
+.header_top li{
+    float:right;
+    display:inline-block;
+    margin: 6px 23px 0 15px;
+    height: 31px;
+}
+.split_line{
+    float:right;
+    background-color:rgba(204, 188, 188, 0.78);
+    margin-top:6px;
+    height: 18px;
+    width: 1px;	
+}
+#demo {
+    background: #FFF;
+    overflow:hidden;
+    width: 60%;
+    margin:0 auto;
+    position:relative;
+    left:141px;
+    top:-141px;
+
+}
+#demo img {
+    border: 3px solid #F2F2F2;
+}
+#indemo {
+    float: left;
+    width: 800%;
+}
+#demo1 {
+    float: left;
+    padding:0 5px;
+}
+#demo2 {
+    float: left;
+    padding:0 5px;
+}
+.content{
+    float:left;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    height:480px;
+}
+.content_box{
+    float:left;
+    width:300px;
+    height:150px;
+    border:1px solid #c91e26;
+    margin:50px;
+    border-radius:600px;
+    text-align:center;
+}
+.content_title{
+    position:relative;
+    font-size:18px;
+    font-family:"微软雅黑";
+    top:58px;
+    color:#c91e26;
+}
+
+.time{
+    float:left;
+   
+}
+.add{
+    float:left;
+    position:relative;
+    top:39px;
+    left:700px;
+    width:390px;
+    height:80px;
+
+}
+.add_a{
+    position:relative;
+    top:17px;
+    left:-52px;
+}
+.footer{
+    float:right;
+    position:relative;
+    top:30px;
+    width:100%;
+    height:10px;
+    border-top:1px solid rgba(204, 188, 188, 0.78);
+}
+
+
